@@ -1,0 +1,53 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;900&family=Roboto:ital,wght@0,300;1,900&display=swap');
+
+  body{
+    background-image: url(multimedia/fondo8.jpg);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+ h2{
+    border: double;
+    background-color: rgb(230, 141, 197);
+    text-align: center;
+}
+.h2{
+    margin-top: 110px;
+}
+
+p{
+    text-align: left;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+    border: 1px dashed pink; 
+    border-radius: 1px;
+   
+}
+.card{
+    width: 600px;
+    text-align: center;
+    box-shadow: 0 0 3px 3px rgb(18, 18, 20);
+    padding: 5px;
+}
+main{
+    max-width: 1200px;
+    display: flex;
+     flex-wrap: wrap;
+     gap: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cuadro{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}

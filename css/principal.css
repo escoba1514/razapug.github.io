@@ -1,0 +1,36 @@
+
+body{
+    background-image: url(multimedia/pug\ fondo.5.png);
+}
+.contenedorp{
+    display: flex;
+    height: 100vh;
+    margin: 20px;
+    align-items: center;
+}
+h2{
+    background-color: rgb(230, 114, 186);
+    color: bisque;
+    border: outset;
+    text-align: center;
+
+}
+.contenedorp img{
+    width: 600px;
+    height: 400px;
+    margin: 1px;
+
+}
+.fondo{
+width: 100%;
+height: 100%;
+background: url(multimedia/pug\ fondo.5.png);
+} 
+p{
+    background-color: rgba(255, 0, 162, 0.567);
+    color: beige;
+}
+a{
+    background-color: rgba(43, 205, 226, 0.756);
+ 
+}
